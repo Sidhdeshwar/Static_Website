@@ -529,12 +529,17 @@ text-align: start;
 }
 /* ! Container-08 */
 .c-08-item{
-  background-color: rgb(221, 156, 57);
+  background-color: #6990FF;
   width: 170px;
   height: 170px;
   border-radius: 10px;
+  justify-content: center;
+  align-items: center;
 }
 .btn-color{
   color: brown;
   background-color: chartreuse;
+}
+.c-08-main-container{
+  column-gap: 20px;
 }
