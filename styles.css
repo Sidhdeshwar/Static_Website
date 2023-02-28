@@ -425,25 +425,116 @@ flex-grow: 2;
 .c-05-RH-item{
    justify-content: center;
 
-   width: 45%;
-   column-gap: 5px;
-  
+   width: 50%;
+   column-gap: 25px;
+ 
 }
 .c-05-RH-item-flex{
-  background-color: #FAF1FE;
+  background-color: white; 
 }
 .c-05-Right-main-squre{
-   background-color: #FAF1FE;
+  background-color: white;
    border-radius: 7px;
+
 }
 .c-05-Right-main-squre-text{
  
-  font-size: 20px;
+  font-size: 15px;
   margin: 0;
   text-align: left;
   color: #1C2528;
   font-weight: 600;
     line-height: 1.2em;
     font-family: 'Poppins', sans-serif;
+}
+.c-05-1st-margin{
+  margin-left: 80px;
+}
+/* *Container -06 */
+.c-06-bold-amount{
 
+  font-weight: 700;
+    font-size: 60px;
+    display: inline-block;
+    line-height: 1em;
+    color: #6990FF;
+}
+.c-06-free-trial{
+text-align: start;
+}
+.c-06-margin-top-text{
+  margin-left: 50px;
+}
+.c-06-top-symbol-margin{
+  margin-left: -40px;
+
+}
+.c-06-material-title{
+ 
+}
+.c-06-dotted-line{
+  
+}
+.c-06-bottom-tick-mark{
+  padding-top: 15px;
+}
+.c-06-all-tickmark-in-1-div{
+  margin-left: 35px;
+  color: #6B6B6B;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6em;
+}
+#c-06-cross-symbol-blur{
+  color: #b5b5b5;
+  fill: #b5b5b5;
+}
+.c-06-ok-tick-dark{
+  color :#1c2528
+}
+/* * Container - 07 */
+.c-07-clients-img-bg{
+  background-color: #47c4c0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+}
+.c-07-outer-container{
+  column-gap: 20px;
+}
+.c-07-clients-details-item-right{
+  width: 100%;
+}
+.c-07-client-name{
+  font-weight: bold !important;
+  color: black;
+}
+/* * */
+.card-07-item{
+  font-family: 'Inter', sans-serif;
+  color: #6B6B6B;
+}
+.c-07-small-circle-on-img{
+  background-color: #d35959;
+  position : absolute;
+  width: 30px;
+  height: 30px;
+ border-radius: 50%;
+ bottom: 0;
+ right: 0;
+
+
+}
+/* ! Container-08 */
+.c-08-item{
+  background-color: rgb(221, 156, 57);
+  width: 170px;
+  height: 170px;
+  border-radius: 10px;
+}
+.btn-color{
+  color: brown;
+  background-color: chartreuse;
 }
