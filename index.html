@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="styles.css" />
+
     <!-- <link
     rel="icon"
     href="https://posing-html.vercel.app/assets/img/favicon.png"
@@ -21,28 +21,18 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <!-- *navbar -->
     <nav class="navbar navbar-expand-lg fixed-top ss-navbar-bg-colour">
-      <div class="container-fluid">
+      <div class="container">
         <a class="navbar-brand ss-nav-margin-left" href="#"
           ><img
             class="ss-nav-img-size"
             src="https://posing-html.vercel.app/assets/img/logo.svg"
         /></a>
-
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
 
         <div
           class="collapse navbar-collapse ss-navbar-middle-margin"
@@ -68,14 +58,26 @@
               <a class="nav-link" aria-current="page" href="#">Contact</a>
             </li>
           </ul>
-
-          <form class="d-flex ss-right-margin" role="search">
-            <a class="nav-link ss-login-padding" aria-current="page" href="#"
-              >Login</a
-            >
-            <button class="btn" id="ss-bg-colour">Start For Free</button>
-          </form>
         </div>
+        <form class="d-flex ss-right-margin" role="search">
+          <a class="nav-link ss-login-padding" aria-current="page" href="#"
+            >Login</a
+          >
+          <button class="btn" id="ss-bg-colour">
+            <b class="button-1-navbar">Start For Free</b>
+          </button>
+        </form>
+        <button
+          class="navbar-toggler border border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
       </div>
     </nav>
     <div class="back-of-navbar"></div>
@@ -99,10 +101,10 @@
       </div>
     </div>
     <!-- *Our Best Inventory -->
-    <div class="outer-container-1">
-      <div class="container big-space-seperation"></div>
+    <div class="outer-container-1 c-11-remove-mobile-top-margin-jast">
+      <div class="container big-space-seperation tablet-hide"></div>
       <div class="container">
-        <p class="office-inventory">Office & Inventory</p>
+        <p class="office-inventory pt-4">Office & Inventory</p>
         <p class="best-inventory">Our best inventory</p>
       </div>
       <div class="inventory-gap"></div>
@@ -110,10 +112,12 @@
       <div class="container">
         <div class="d-flex flex-row mb-3 main-container-1">
           <!-- * -->
-          <div class="row row-cols-1 row-cols-md-4 g-4">
-            <div class="col">
-              <!-- *CARD-01 -->
-              <div class="card mt-4 border border-0">
+          <div class="row row-cols-1 row-cols-md-4 g-4 c-01-tablet-vieve-flex">
+            <!-- *CARD-01 -->
+            <div class="col-xl-3 col-md-6">
+              <div
+                class="card mt-4 border border-0 c-01-tablet-card-margin c-01-mt-0-true"
+              >
                 <div class="img-container-1">
                   <div class="c-1-img-circle-01">
                     <div class="center-img-c1">
@@ -140,7 +144,7 @@
               </div>
             </div>
             <!-- *CARD-02 -->
-            <div class="col">
+            <div class="col-xl-3 col-md-6">
               <div class="card border border-0">
                 <div class="img-container-1">
                   <div class="c-1-img-circle-01">
@@ -168,8 +172,8 @@
               </div>
             </div>
             <!-- *CARD-03 -->
-            <div class="col">
-              <div class="card mt-4 border border-0">
+            <div class="col-xl-3 col-md-6">
+              <div class="card mt-4 border border-0 c-01-tablet-card-margin">
                 <div class="img-container-1">
                   <div class="c-1-img-circle-01">
                     <div class="center-img-c1">
@@ -196,7 +200,7 @@
               </div>
             </div>
             <!-- *CARD-04 -->
-            <div class="col">
+            <div class="col-xl-3 col-md-6">
               <div class="card border border-0">
                 <div class="img-container-1">
                   <div class="c-1-img-circle-01">
@@ -232,19 +236,18 @@
     <!-- !PART-03 -->
 
     <div class="container-fluid outer-container-3">
-    
       <div class="container-fluid-white-bar">
-        <div class="d-flex flex-row mb-2 container-03">
-          <div class="p-2 c2-left-item">
+        <div class="row d-flex flex-row mb-2 container-03 col-xl-6 col-md-12">
+          <div class="p-2 c2-left-item col-xl-12">
             <div class="c2-l-itm-containt1">
               <img
-                class="c-3-big-img-2"
+                class="c-3-big-img-2 c-03-big-img-margin"
                 src="img/big-images/about_img_1.png"
                 alt=""
               />
             </div>
           </div>
-          <div class="p-2 d-flex flex-column c2-right-item">
+          <div class="p-2 d-flex flex-column c2-right-item col-md-12">
             <div class="c2-r-itm-containt-above text-start">
               <p class="office-inventory c03-above-the-POS ms-2">
                 About The POS
@@ -279,7 +282,7 @@
                 </div>
               </div>
               <div class="c-03-r-itm-below-right">
-                <img  src="img/big-images/about_img_2.png" alt="" />
+                <img src="img/big-images/about_img_2.png" alt="" />
               </div>
             </div>
           </div>
@@ -294,7 +297,9 @@
         <div class="container-Big-blue-inner">
           <div class="blue-bar-middle-outer-div d-flex flex-row">
             <!-- *Blue Text1 -->
-            <div class="blue-bar-middle-containt d-flex flex-row">
+            <div
+              class="blue-bar-middle-containt blue-bar-no-line d-flex flex-row"
+            >
               <div class="Blue-containt-main d-flex flex-row">
                 <div class="actual-text-containt-circle d-flex flex-row">
                   <img src="img/Big-blue-bar/funfact_icon_1.svg" alt="" />
@@ -321,7 +326,7 @@
             </div>
             <!-- *Blue Text3 -->
             <div
-              class="blue-bar-middle-containt d-flex flex-row blue-bar-left-border"
+              class="blue-bar-middle-containt d-flex flex-row blue-bar-left-border blue-bar-border-hide"
             >
               <div class="Blue-containt-main d-flex flex-row">
                 <div class="actual-text-containt-circle d-flex flex-row">
@@ -354,172 +359,190 @@
       <div class="inventory-gap blue-bar"></div>
     </div>
     <!-- !Container-3 Start -->
-
-    <div class="container">
-      <p class="office-inventory">POS Features</p>
-      <p class="best-inventory">Available features</p>
-      <div class="inventory-gap"></div>
-      <div class="row row-cols-1 row-cols-md-3 g-4 container-04-main">
-        <!-- ^CARD = 3 ===1 -->
-        <div class="col">
-          <div class="card mb-3 border border-0" style="max-width: 540px">
-            <div class="row g-0 container-04-wrapping-flex">
-              <!-- ~ ................Required to make wrap Side-by-side -->
-              <div class="col-md-4">
-                <div
-                  class="actual-text-containt-circle d-flex flex-row c-04-circle-bg-color"
-                >
-                  <img src="img/c4-Available-Features/icon_box_5.svg" alt="" />
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title card-title-c1 c-03-title-margin">
-                    Effortless card
-                  </h5>
-                  <p class="card-text card-text-c1 mt-3">
-                    Lorem Ipsum is simply dummy text of the most printing and
-                    typese Ipsum is simply dummy
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- ^CARD = 3 ===2 -->
-        <div class="col">
-          <div class="card mb-3 border border-0" style="max-width: 540px">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <div
-                  class="actual-text-containt-circle d-flex flex-row c-04-circle-bg-color"
-                >
-                  <img src="img/c4-Available-Features/icon_box_6.svg" alt="" />
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title card-title-c1 c-03-title-margin">
-                    Software accuracy
-                  </h5>
-                  <p class="card-text card-text-c1 mt-3">
-                    Lorem Ipsum is simply dummy text of the most printing and
-                    typese Ipsum is simply dummy
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- ^CARD = 3 ===3 -->
-        <div class="col">
-          <div class="card mb-3 border border-0" style="max-width: 540px">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <div
-                  class="actual-text-containt-circle d-flex flex-row c-04-circle-bg-color"
-                >
-                  <img src="img/c4-Available-Features/icon_box_7.svg" alt="" />
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title card-title-c1 c-03-title-margin">
-                    Customization
-                  </h5>
-                  <p class="card-text card-text-c1 mt-3">
-                    Lorem Ipsum is simply dummy text of the most printing and
-                    typese Ipsum is simply dummy
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- ^CARD = 3 ===4 -->
-        <div class="col">
-          <div class="card mb-3 border border-0" style="max-width: 540px">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <div
-                  class="actual-text-containt-circle d-flex flex-row c-04-circle-bg-color"
-                >
-                  <img src="img/c4-Available-Features/icon_box_8.svg" alt="" />
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title card-title-c1 c-03-title-margin">
-                    Customer data
-                  </h5>
-                  <p class="card-text card-text-c1 mt-3">
-                    Lorem Ipsum is simply dummy text of the most printing and
-                    typese Ipsum is simply dummy
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- ^CARD = 3 ===5 -->
-        <div class="col">
-          <div class="card mb-3 border border-0" style="max-width: 540px">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <div
-                  class="actual-text-containt-circle d-flex flex-row c-04-circle-bg-color"
-                >
-                  <img src="img/c4-Available-Features/icon_box_9.svg" alt="" />
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title card-title-c1 c-03-title-margin">
-                    Seamless checkout
-                  </h5>
-                  <p class="card-text card-text-c1 mt-3">
-                    Lorem Ipsum is simply dummy text of the most printing and
-                    typese Ipsum is simply dummy
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- ^CARD = 3 ===6 -->
-        <div class="col">
-          <div class="card mb-3 border border-0" style="max-width: 540px">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <div
-                  class="actual-text-containt-circle d-flex flex-row c-04-circle-bg-color"
-                >
-                  <img src="img/c4-Available-Features/icon_box_10.svg" alt="" />
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title card-title-c1 c-03-title-margin">
-                    High speed proce
-                  </h5>
-                  <p class="card-text card-text-c1 mt-3">
-                    Lorem Ipsum is simply dummy text of the most printing and
-                    typese Ipsum is simply dummy
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+    <div class="outer-container-1 tablet-top-margin">
+      <div class="container">
+        <p class="office-inventory">POS Features</p>
+        <p class="best-inventory">Available features</p>
         <div class="inventory-gap"></div>
+        <div class="row row-cols-1 row-cols-md-3 g-4 container-04-main">
+          <!-- ^CARD = 3 ===1 -->
+          <div class="col-xl-4 col-md-6">
+            <div class="card mb-3 border border-0" style="max-width: 540px">
+              <div class="g-0 container-04-wrapping-flex">
+                <!-- ~ ................Required to make wrap Side-by-side -->
+                <div class="col-md-4">
+                  <div
+                    class="actual-text-containt-circle d-flex flex-row c-04-circle-bg-color"
+                  >
+                    <img
+                      src="img/c4-Available-Features/icon_box_5.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title card-title-c1 c-03-title-margin">
+                      Effortless card
+                    </h5>
+                    <p class="card-text card-text-c1 mt-3">
+                      Lorem Ipsum is simply dummy text of the most printing and
+                      typese Ipsum is simply dummy
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ^CARD = 3 ===2 -->
+          <div class="col-xl-4 col-md-6">
+            <div class="card mb-3 border border-0" style="max-width: 540px">
+              <div class="g-0 container-04-wrapping-flex">
+                <div class="col-md-4">
+                  <div
+                    class="actual-text-containt-circle d-flex flex-row c-04-circle-bg-color"
+                  >
+                    <img
+                      src="img/c4-Available-Features/icon_box_6.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title card-title-c1 c-03-title-margin">
+                      Software accuracy
+                    </h5>
+                    <p class="card-text card-text-c1 mt-3">
+                      Lorem Ipsum is simply dummy text of the most printing and
+                      typese Ipsum is simply dummy
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ^CARD = 3 ===3 -->
+          <div class="col-xl-4 col-md-6">
+            <div class="card mb-3 border border-0" style="max-width: 540px">
+              <div class="g-0 container-04-wrapping-flex">
+                <div class="col-md-4">
+                  <div
+                    class="actual-text-containt-circle d-flex flex-row c-04-circle-bg-color"
+                  >
+                    <img
+                      src="img/c4-Available-Features/icon_box_7.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title card-title-c1 c-03-title-margin">
+                      Customization
+                    </h5>
+                    <p class="card-text card-text-c1 mt-3">
+                      Lorem Ipsum is simply dummy text of the most printing and
+                      typese Ipsum is simply dummy
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ^CARD = 3 ===4 -->
+          <div class="col-xl-4 col-md-6">
+            <div class="card mb-3 border border-0" style="max-width: 540px">
+              <div class="g-0 container-04-wrapping-flex">
+                <div class="col-md-4">
+                  <div
+                    class="actual-text-containt-circle d-flex flex-row c-04-circle-bg-color"
+                  >
+                    <img
+                      src="img/c4-Available-Features/icon_box_8.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title card-title-c1 c-03-title-margin">
+                      Customer data
+                    </h5>
+                    <p class="card-text card-text-c1 mt-3">
+                      Lorem Ipsum is simply dummy text of the most printing and
+                      typese Ipsum is simply dummy
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ^CARD = 3 ===5 -->
+          <div class="col-xl-4 col-md-6">
+            <div class="card mb-3 border border-0" style="max-width: 540px">
+              <div class="g-0 container-04-wrapping-flex">
+                <div class="col-md-4">
+                  <div
+                    class="actual-text-containt-circle d-flex flex-row c-04-circle-bg-color"
+                  >
+                    <img
+                      src="img/c4-Available-Features/icon_box_9.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title card-title-c1 c-03-title-margin">
+                      Seamless checkout
+                    </h5>
+                    <p class="card-text card-text-c1 mt-3">
+                      Lorem Ipsum is simply dummy text of the most printing and
+                      typese Ipsum is simply dummy
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ^CARD = 3 ===6 -->
+          <div class="col-xl-4 col-md-6">
+            <div class="card mb-3 border border-0" style="max-width: 540px">
+              <div class="g-0 container-04-wrapping-flex">
+                <div class="col-md-4">
+                  <div
+                    class="actual-text-containt-circle d-flex flex-row c-04-circle-bg-color"
+                  >
+                    <img
+                      src="img/c4-Available-Features/icon_box_10.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title card-title-c1 c-03-title-margin">
+                      High speed process
+                    </h5>
+                    <p class="card-text card-text-c1 mt-3">
+                      Lorem Ipsum is simply dummy text of the most printing and
+                      typese Ipsum is simply dummy
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="inventory-gap"></div>
+        </div>
       </div>
     </div>
-
     <!-- !Container-05 -->
-    <div class="outer-container-1">
-      <div class="inventory-gap"></div>
-      <div class="inventory-gap"></div>
-      <div class="inventory-gap"></div>
+    <div class="outer-container-1 tablet-top-margin">
+      <div class="inventory-gap mobile-hide"></div>
+      <div class="inventory-gap mobile-hide"></div>
+      <div class="inventory-gap mobile-hide"></div>
       <p class="office-inventory">Retail Stores</p>
       <p class="best-inventory">
         Perfect point of sale software for <br />
@@ -527,7 +550,7 @@
       </p>
       <div class="inventory-gap"></div>
       <!-- Left & Right Big Items -->
-      <div class="d-flex flex-row mb-2 container-03">
+      <div class="row d-flex flex-row mb-2 container-03 col-xl-6 col-md-12">
         <div class="p-2 c2-left-item">
           <div class="c2-l-itm-containt1">
             <img
@@ -538,11 +561,11 @@
           </div>
         </div>
         <div
-          class="d-flex flex-row c-05-RH-item mt-5 row row-cols-1 row-cols-md-3 g-4"
+          class="d-flex flex-row c-05-RH-item c-05-bottom-margin mt-5 row row-cols-1 row-cols-md-3 g-4"
         >
           <!-- * 1) -->
           <div
-            class="blue-bar-middle-containt d-flex flex-row blue-bar-left-border c-05-Right-main-squre c-05-1st-margin"
+            class="col-xl-3 col-md-6 blue-bar-middle-containt c-05-img-fix-to-middle d-flex flex-row blue-bar-left-border c-05-Right-main-squre c-05-1st-margin c-05-fix-to-mid-45px"
           >
             <div class="Blue-containt-main d-flex flex-row">
               <div class="actual-text-containt-circle d-flex flex-row">
@@ -552,7 +575,7 @@
                 />
               </div>
               <div class="actual-text-containt-right">
-                <div class="text-below-k c-05-Right-main-squre-text mt-3">
+                <div class="text-below-k c-05-Right-main-squre-text">
                   Food Delivery
                 </div>
               </div>
@@ -560,7 +583,7 @@
           </div>
           <!-- *2) -->
           <div
-            class="blue-bar-middle-containt d-flex flex-row blue-bar-left-border c-05-Right-main-squre"
+            class="col-xl-3 col-md-6 blue-bar-middle-containt c-05-img-fix-to-middle d-flex flex-row blue-bar-left-border c-05-Right-main-squre c-05-fix-to-mid-45px"
           >
             <div class="Blue-containt-main d-flex flex-row">
               <div class="actual-text-containt-circle d-flex flex-row">
@@ -570,7 +593,7 @@
                 />
               </div>
               <div class="actual-text-containt-right">
-                <div class="text-below-k c-05-Right-main-squre-text mt-3">
+                <div class="text-below-k c-05-Right-main-squre-text">
                   Cycle Store
                 </div>
               </div>
@@ -578,7 +601,7 @@
           </div>
           <!-- *3 -->
           <div
-            class="blue-bar-middle-containt d-flex flex-row blue-bar-left-border c-05-Right-main-squre"
+            class="blue-bar-middle-containt c-05-img-fix-to-middle d-flex flex-row blue-bar-left-border c-05-Right-main-squre c-05-fix-to-mid-45px"
           >
             <div class="Blue-containt-main d-flex flex-row">
               <div class="actual-text-containt-circle d-flex flex-row">
@@ -588,7 +611,7 @@
                 />
               </div>
               <div class="actual-text-containt-right">
-                <div class="text-below-k c-05-Right-main-squre-text mt-3">
+                <div class="text-below-k c-05-Right-main-squre-text">
                   Gift Shop
                 </div>
               </div>
@@ -596,7 +619,7 @@
           </div>
           <!-- *4 -->
           <div
-            class="blue-bar-middle-containt d-flex flex-row blue-bar-left-border c-05-Right-main-squre"
+            class="blue-bar-middle-containt c-05-img-fix-to-middle d-flex flex-row blue-bar-left-border c-05-Right-main-squre c-05-fix-to-mid-45px"
           >
             <div class="Blue-containt-main d-flex flex-row">
               <div class="actual-text-containt-circle d-flex flex-row">
@@ -606,7 +629,7 @@
                 />
               </div>
               <div class="actual-text-containt-right">
-                <div class="text-below-k c-05-Right-main-squre-text mt-3">
+                <div class="text-below-k c-05-Right-main-squre-text">
                   Furniture Store
                 </div>
               </div>
@@ -614,7 +637,7 @@
           </div>
           <!-- *5 -->
           <div
-            class="blue-bar-middle-containt d-flex flex-row blue-bar-left-border c-05-Right-main-squre c-05-1st-margin"
+            class="blue-bar-middle-containt c-05-img-fix-to-middle d-flex flex-row blue-bar-left-border c-05-Right-main-squre c-05-1st-margin c-05-fix-to-mid-45px"
           >
             <div class="Blue-containt-main d-flex flex-row">
               <div class="actual-text-containt-circle d-flex flex-row">
@@ -624,7 +647,7 @@
                 />
               </div>
               <div class="actual-text-containt-right">
-                <div class="text-below-k c-05-Right-main-squre-text mt-3">
+                <div class="text-below-k c-05-Right-main-squre-text">
                   Clothing Store
                 </div>
               </div>
@@ -633,7 +656,7 @@
 
           <!-- *6 -->
           <div
-            class="blue-bar-middle-containt d-flex flex-row blue-bar-left-border c-05-Right-main-squre"
+            class="blue-bar-middle-containt c-05-img-fix-to-middle d-flex flex-row blue-bar-left-border c-05-Right-main-squre c-05-fix-to-mid-45px"
           >
             <div class="Blue-containt-main d-flex flex-row">
               <div class="actual-text-containt-circle d-flex flex-row">
@@ -643,7 +666,7 @@
                 />
               </div>
               <div class="actual-text-containt-right">
-                <div class="text-below-k c-05-Right-main-squre-text mt-3">
+                <div class="text-below-k c-05-Right-main-squre-text">
                   Coffee Shop
                 </div>
               </div>
@@ -654,7 +677,9 @@
       <div class="container big-space-seperation"></div>
     </div>
     <!-- ! Container - 06 -->
-    <div class="outer-container-3">
+    <div
+      class="outer-container-3 c-11-remove-mobile-top-margin tablet-top-margin"
+    >
       <div class="container">
         <div class="inventory-gap"></div>
         <p class="office-inventory">Pricing Plan</p>
@@ -662,7 +687,7 @@
         <div class="inventory-gap"></div>
         <!-- ^ Very Large Card = 1 -->
         <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col">
+          <div class="col-xl-4 col-md-12">
             <div class="card h-100 border border-0">
               <div
                 class="blue-bar-middle-containt d-flex flex-row blue-bar-left-border c-05-Right-main-squre"
@@ -675,7 +700,7 @@
                     <img src="img/c-06-silver-gold/pricing_icon_1.svg" alt="" />
                   </div>
                   <div class="actual-text-containt-right">
-                    <div class="text-below-k c-05-Right-main-squre-text mt-3">
+                    <div class="text-below-k c-05-Right-main-squre-text">
                       Silver
                     </div>
                   </div>
@@ -789,7 +814,7 @@
             </div>
           </div>
           <!-- ^ Very Large Card = 2 -->
-          <div class="col">
+          <div class="col-xl-4 col-md-12">
             <div class="card h-100 border border-0">
               <div
                 class="blue-bar-middle-containt d-flex flex-row blue-bar-left-border c-05-Right-main-squre"
@@ -802,7 +827,7 @@
                     <img src="img/c-06-silver-gold/pricing_icon_2.svg" alt="" />
                   </div>
                   <div class="actual-text-containt-right">
-                    <div class="text-below-k c-05-Right-main-squre-text mt-3">
+                    <div class="text-below-k c-05-Right-main-squre-text">
                       Gold
                     </div>
                   </div>
@@ -835,7 +860,7 @@
                         fill="#47C4C0"
                       ></path>
                     </svg>
-                    >&nbsp;&nbsp; Unlimited users
+                    &nbsp;&nbsp; Unlimited users
                   </div>
                   <!-- 2 -->
                   <div class="c-06-bottom-tick-mark c-06-ok-tick-dark">
@@ -913,7 +938,7 @@
             </div>
           </div>
           <!-- ^ Very Large Card = 3-->
-          <div class="col">
+          <div class="col-xl-4 col-md-12">
             <div class="card h-100 border border-0">
               <div
                 class="blue-bar-middle-containt d-flex flex-row blue-bar-left-border c-05-Right-main-squre"
@@ -926,7 +951,7 @@
                     <img src="img/c-06-silver-gold/pricing_icon_3.svg" alt="" />
                   </div>
                   <div class="actual-text-containt-right">
-                    <div class="text-below-k c-05-Right-main-squre-text mt-3">
+                    <div class="text-below-k c-05-Right-main-squre-text">
                       Bronze
                     </div>
                   </div>
@@ -1032,10 +1057,10 @@
           </div>
         </div>
       </div>
-      <div class="container big-space-seperation"></div>
+      <div class="container big-space-seperation mobile-hide"></div>
     </div>
     <!-- ! Container - 07 -->
-    <div class="outer-container-1">
+    <div class="outer-container-1 tablet-top-margin">
       <div class="container">
         <div class="inventory-gap"></div>
         <p class="office-inventory">Testimonials</p>
@@ -1071,11 +1096,8 @@
             <div class="carousel-item active" data-bs-interval="10000">
               <div class="row row-cols-1 row-cols-md-3 g-4">
                 <!-- ^Card-1 -->
-                <div class="col">
-                  <div
-                    class="card card-07-item border border-0"
-                    style="width: 21rem"
-                  >
+                <div class="col-xl-4 col-md-6">
+                  <div class="card card-07-item border border-0">
                     <div class="card-body">
                       <p class="card-text">
                         With Thrive’s help, we were able to increase the
@@ -1124,11 +1146,8 @@
                   </div>
                 </div>
                 <!-- ^Card-2 -->
-                <div class="col">
-                  <div
-                    class="card card-07-item border border-0"
-                    style="width: 21rem"
-                  >
+                <div class="col-xl-4 col-md-6 mobile-hide">
+                  <div class="card card-07-item border border-0">
                     <div class="card-body">
                       <p class="card-text">
                         With Thrive’s help, we were able to increase the
@@ -1177,11 +1196,8 @@
                   </div>
                 </div>
                 <!-- ^Card-3 -->
-                <div class="col">
-                  <div
-                    class="card card-07-item border border-0"
-                    style="width: 21rem"
-                  >
+                <div class="col-xl-4 col-md-6 c-07-tablet-hide mobile-hide">
+                  <div class="card card-07-item border border-0">
                     <div class="card-body">
                       <p class="card-text">
                         With Thrive’s help, we were able to increase the
@@ -1235,11 +1251,8 @@
             <div class="carousel-item" data-bs-interval="2000">
               <div class="row row-cols-1 row-cols-md-3 g-4">
                 <!-- ^Card-1 -->
-                <div class="col">
-                  <div
-                    class="card card-07-item border border-0"
-                    style="width: 21rem"
-                  >
+                <div class="col-xl-4 col-md-6 mobile-hide">
+                  <div class="card card-07-item border border-0">
                     <div class="card-body">
                       <p class="card-text">
                         With Thrive’s help, we were able to increase the
@@ -1288,11 +1301,8 @@
                   </div>
                 </div>
                 <!-- ^Card-2 -->
-                <div class="col">
-                  <div
-                    class="card card-07-item border border-0"
-                    style="width: 21rem"
-                  >
+                <div class="col-xl-4 col-md-6">
+                  <div class="card card-07-item border border-0">
                     <div class="card-body">
                       <p class="card-text">
                         With Thrive’s help, we were able to increase the
@@ -1341,11 +1351,8 @@
                   </div>
                 </div>
                 <!-- ^Card-3 -->
-                <div class="col">
-                  <div
-                    class="card card-07-item border border-0"
-                    style="width: 21rem"
-                  >
+                <div class="col-xl-4 col-md-6 c-07-tablet-hide mobile-hide">
+                  <div class="card card-07-item border border-0">
                     <div class="card-body">
                       <p class="card-text">
                         With Thrive’s help, we were able to increase the
@@ -1399,11 +1406,8 @@
             <div class="carousel-item">
               <div class="row row-cols-1 row-cols-md-3 g-4">
                 <!-- ^Card-1 -->
-                <div class="col">
-                  <div
-                    class="card card-07-item border border-0"
-                    style="width: 21rem"
-                  >
+                <div class="col-xl-4 col-md-6 mobile-hide">
+                  <div class="card card-07-item border border-0">
                     <div class="card-body">
                       <p class="card-text">
                         With Thrive’s help, we were able to increase the
@@ -1452,11 +1456,8 @@
                   </div>
                 </div>
                 <!-- ^Card-2 -->
-                <div class="col">
-                  <div
-                    class="card card-07-item border border-0"
-                    style="width: 21rem"
-                  >
+                <div class="col-xl-4 col-md-6 mobile-hide">
+                  <div class="card card-07-item border border-0">
                     <div class="card-body">
                       <p class="card-text">
                         With Thrive’s help, we were able to increase the
@@ -1505,11 +1506,8 @@
                   </div>
                 </div>
                 <!-- ^Card-3 -->
-                <div class="col">
-                  <div
-                    class="card card-07-item border border-0"
-                    style="width: 21rem"
-                  >
+                <div class="col-xl-4 col-md-6 c-07-tablet-hide">
+                  <div class="card card-07-item border border-0">
                     <div class="card-body">
                       <p class="card-text">
                         With Thrive’s help, we were able to increase the
@@ -1571,6 +1569,7 @@
         <div class="inventory-gap"></div>
         <p class="office-inventory">Our Client</p>
         <p class="best-inventory">Who we partner with</p>
+        <div class="inventory-gap"></div>
         <!-- *Crousel -->
         <div class="carousel-item active">
           <div class="c-08-main-container d-flex flex-row">
@@ -1580,16 +1579,16 @@
             <div class="c-08-item d-flex flex-row">
               <img src="img/c-08-partner/client_2.svg" alt="" />
             </div>
-            <div class="c-08-item d-flex flex-row">
+            <div class="c-08-item mobile-hide d-flex flex-row">
               <img src="img/c-08-partner/client_3.svg" alt="" />
             </div>
-            <div class="c-08-item d-flex flex-row">
+            <div class="c-08-item mobile-hide d-flex flex-row c-07-tablet-hide">
               <img src="img/c-08-partner/client_4.svg" alt="" />
             </div>
-            <div class="c-08-item d-flex flex-row">
+            <div class="c-08-item mobile-hide d-flex flex-row c-07-tablet-hide">
               <img src="img/c-08-partner/client_5.svg" alt="" />
             </div>
-            <div class="c-08-item d-flex flex-row">
+            <div class="c-08-item mobile-hide d-flex flex-row c-07-tablet-hide">
               <img src="img/c-08-partner/client_6.svg" alt="" />
             </div>
           </div>
@@ -1603,16 +1602,21 @@
       <p class="office-inventory">POS FAQ</p>
       <p class="best-inventory">Frequently asked questions</p>
       <div class="inventory-gap"></div>
+      <div class="inventory-gap"></div>
+
       <!-- Left & Right Big Items -->
-      <div class="d-flex flex-row mb-2 container-03">
+      <div class="row d-flex flex-row mb-2 container-03 col-xl-6 col-md-12">
         <div class="p-2 c2-left-item">
           <div class="c2-l-itm-containt1">
             <img
-              class="c-09-big-image-04"
+              class="c-09-big-image-04 img-fluid"
               src="img/big-images/faq_img.png"
               alt=""
             />
           </div>
+          <div class="inventory-gap"></div>
+          <div class="inventory-gap"></div>
+          <div class="inventory-gap"></div>
         </div>
         <div class="d-flex flex-row c-05-RH-item c-09-rhs-item">
           <!-- *Accordian -->
@@ -1778,7 +1782,7 @@
       <div class="inventory-gap"></div>
     </div>
     <!-- ! Container - 10 -->
-    <div class="outer-container-3">
+    <div class="outer-container-3 tablet-top-margin">
       <div class="inventory-gap"></div>
       <div class="inventory-gap"></div>
       <p class="office-inventory">Letest News</p>
@@ -1789,7 +1793,7 @@
           <!-- * -->
           <div class="row row-cols-1 row-cols-md-4 g-4">
             <!-- *CARD-01 -->
-            <div class="col">
+            <div class="col-xl-3 col-md-6">
               <div class="card border border-0">
                 <div class="img-container-1">
                   <div class="c-1-img-circle-02">
@@ -1861,7 +1865,7 @@
               </div>
             </div>
             <!-- *CARD-02 -->
-            <div class="col">
+            <div class="col mobile-hide col-xl-3 col-md-6">
               <div class="card border border-0">
                 <div class="img-container-1">
                   <div class="c-1-img-circle-02">
@@ -1933,7 +1937,7 @@
               </div>
             </div>
             <!-- *CARD-03 -->
-            <div class="col">
+            <div class="col mobile-hide c-07-tablet-hide">
               <div class="card border border-0">
                 <div class="img-container-1">
                   <div class="c-1-img-circle-02">
@@ -2005,7 +2009,7 @@
               </div>
             </div>
             <!-- *CARD-04 -->
-            <div class="col">
+            <div class="col mobile-hide c-07-tablet-hide">
               <div class="card border border-0">
                 <div class="img-container-1">
                   <div class="c-1-img-circle-02">
@@ -2083,18 +2087,22 @@
       <div class="inventory-gap"></div>
     </div>
     <!-- ! Container - 11 -->
-    <div class="outer-container-1">
+    <div class="outer-container-1 tablet-top-margin-extra">
       <div class="container">
-        <div class="container big-space-seperation"></div>
+        <div class="container big-space-seperation mobile-hide"></div>
         <div class="container-fluid">
-          <div class="d-flex flex-row c-11-main-container">
+          <div
+            class="d-flex flex-row c-11-main-container c-11-remove-mobile-top-margin"
+          >
             <!--^ LHS = Big Item -->
             <div class="d-flex flex-column c-11">
               <div class="c2-r-itm-containt-above text-start">
                 <p class="office-inventory c03-above-the-POS ms-2">
                   Contact Us
                 </p>
-                <p class="best-inventory c03-Best-solution-for-point ms-2">
+                <p
+                  class="best-inventory c03-Best-solution-for-point ms-2 c-11-title-alignment"
+                >
                   If you have any quiries, fill free to contact us
                 </p>
                 <p class="ms-2 c3-Best-solution-text">
@@ -2136,11 +2144,11 @@
 
             <!-- RHS = Big Item -->
 
-            <div class="c-11-RHS-container c-11 mt-4">
+            <div class="c-11-RHS-container mt-4">
               <h5 class="card-title card-title-c1 c-03-title-margin">
                 Please fill up the form
               </h5>
-              <div class="d-flex flex-row c-11-outer-container">
+              <div class="flex-row c-11-outer-container">
                 <div>
                   <input class="c-11-input" type="text" placeholder="  Name" />
                 </div>
@@ -2170,13 +2178,12 @@
           </div>
         </div>
       </div>
-      <div class="container big-space-seperation"></div>
     </div>
     <!-- ! Container - 12 ====== FOOTER Outer -->
-    <div class="footer" style="height: 50px"></div>
+    <div class="footer tablet-top-margin" style="height: 50px"></div>
     <div class="container-fluid footer">
       <div class="container">
-        <div class="row">
+        <div class="row row-footer">
           <div class="col-lg-3 col-md-6">
             <a class="navbar-brand" href="#"
               ><img src="./img/c-12-Footer/logo_footer.svg"
