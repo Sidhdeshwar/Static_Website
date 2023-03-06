@@ -265,7 +265,6 @@
 }
 .c2-right-item {
   width: 580px;
-  height: 531.5px;
   row-gap: 5px;
 }
 .c2-r-itm-containt-above {
@@ -538,6 +537,7 @@ margin-top: 100px;
 }
 .c-09-rhs-item {
   font-family: "Inter", sans-serif;
+  margin-right: -15px;
 }
 .c-09-rhs-item1-margin-bottom {
   margin-bottom: 20px;
@@ -822,6 +822,9 @@ margin-top: 100px;
 .c-11-remove-mobile-top-margin-jast{
   margin-top: -100px;
 }
+.blue-bar-mt-between-800-to-1200{
+  margin-top: -280px;
+}
 }
 /* * Image Hover Effect */
 .c-1-img-circle-02 {
@@ -837,8 +840,15 @@ margin-top: 100px;
 /* * Image Hover Effect */
 
 @media (min-width: 411px) and (max-width: 800px) {
+  .toggle-right-corner{
+    position: absolute;
+    right: 100px;
+  }
+  
   .ss-right-margin {
-    margin-right: -350px;
+    /* margin-right: -50%; */
+    /* position: relative;
+    right: 350px; */
   }
   .navbar-toggler {
     margin-right: -30px;
@@ -917,6 +927,9 @@ margin-top: 100px;
   .tablet-top-margin-extra{
     margin-top: -150px;
   }
+  .ss-navbar-bg-colour{
+    position: fixed;
+  }
 }
 @media (min-width: 800px) and (max-width: 1200px) 
 {
@@ -932,4 +945,43 @@ margin-top: 100px;
    .c-01-tablet-card-margin {
     margin-top: 0px !important;
   }
+  .c-09-rhs-item{
+    margin-right: -15px;
+  }
+  .c-03-between-800-to-1200{
+    justify-content: center;
+  }
+  .blue-bar-mt-between-800-to-1200{
+    margin-top: 100px;
+    width: 100%;
+  }
+  .c-05-RH-item {
+    width: 100%;
+  }
+  .c-07-800-to-1200-hide{
+    display: none;
+  }
+  .c-09-rhs-item{
+    margin-left: 40px;
+  }
+  .c-10-800-1200-hide{
+        display: none;
+  }
+  .hide-above1200px{
+    display: none;
+  }
+  .c-05-1st-margin {
+    margin-left: 0px;
+  }
+  
+}
+
+@media (min-width:1200px)
+{
+  .c-11-RHS-container{
+    padding-top: 115px;
+  }
+.hide-above1200px{
+  display: none;
+}
 }
